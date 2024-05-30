@@ -1,7 +1,8 @@
 from aiogram import Bot, Dispatcher, types, executor
-from config import TELEGRAM_TOKEN
+from config import tgToken
 from keyboards.keyboard import get_keyboard_1,get_keyboard_2
-bot = Bot(token= TELEGRAM_TOKEN)
+
+bot = Bot(token= tgToken)
 dp = Dispatcher(bot)
 
 
